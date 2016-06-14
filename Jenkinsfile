@@ -1,9 +1,9 @@
 node {
    // Mark the code checkout 'stage'....
    stage 'Checkout'
-
+ 
    // Checkout code from repository and triggers?
-   checkout scm
+   checkout scm 
 
    // Get the maven tool.
    // ** NOTE: This 'M3' maven tool must be configured
