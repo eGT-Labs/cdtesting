@@ -2,7 +2,7 @@ node {
    // Mark the code checkout 'stage'....
    stage 'Checkout'
 
-   // Checkout code from repository
+   // Checkout code from repository and trigger?
    checkout scm
 
    // Get the maven tool.
